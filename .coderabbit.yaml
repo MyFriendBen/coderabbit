@@ -1,0 +1,13 @@
+reviews:
+  poem: false
+  sequence_diagrams: false
+  suggested_reviewers: false
+  collapse_walkthrough: true
+
+# Trigger reviews on dev branch, disable on main
+base_branches:
+  - dev
+
+# Disable reviews when merging into main
+exclude_base_branches:
+  - main
