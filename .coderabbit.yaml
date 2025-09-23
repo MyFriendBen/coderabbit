@@ -4,6 +4,9 @@ reviews:
   suggested_reviewers: false
   collapse_walkthrough: true
   related_prs: false
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
 
 # Trigger reviews on dev branch, disable on main
 base_branches:
